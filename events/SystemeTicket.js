@@ -21,8 +21,8 @@ module.exports = {
                 
                 
                 
-        let catégorie = "1083883083473879070"
-        let roleStaff = interaction.guild.roles.cache.get('1083883156899368990')
+        let catégorie = "ID"
+        let roleStaff = interaction.guild.roles.cache.get('Staff Role ID')
 
         let DejaUnChannel = interaction.guild.channels.cache.find(c => c.topic == interaction.user.id)
         
